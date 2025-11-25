@@ -1,0 +1,9 @@
+.gradle
+build/
+.idea
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# credentials (should not be committed)
+src/test/resources/credentials.properties
